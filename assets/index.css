@@ -1,0 +1,215 @@
+body {
+  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  margin: 0;
+  
+  margin-top:30px;
+}
+
+.left-float{
+float: left;
+}
+
+.card-Section{
+  /* background-color: aqua; */
+border: 3px solid #5776EC;
+border-radius: 7px;
+    height: 28em;
+  /* color: greenyellow; */
+    margin: auto;
+    margin-top: 1em;
+    width: 50%;
+    padding: 3em;
+  padding-bottom: 6em;
+}
+
+.flex-container {
+display: flex;
+}
+
+.flex-container > .card, .flex-container > .card2 {
+position: relative;
+/* border: 1.5px solid #0099F6;  */
+border-radius: 3px; 
+
+background-color: #F5FBFF;
+margin-right: 20px;
+width: 100%;
+}
+
+.card1-space{
+padding: 25px; 
+}
+
+.card2-space{
+padding: 15px; 
+}
+
+
+.flex-container > div.card {
+background-color: #F5FBFF;
+}
+
+div.card-border-gray{
+border: 1.5px solid #d7d7d7; 
+}
+
+div.card-border-blue{
+border: 1.5px solid #0099F6; 
+}
+
+
+
+.flex-container > div.card2 {
+/* border: 1.5px solid #6275ED;  */
+background-color: #6275ED;
+}
+
+.card-btn-1{
+border: 1px solid #CBEAFE; 
+background-color: aliceblue;
+color: #5BC6FA; 
+border-radius: 2.5px; 
+padding: 5px 8px ; 
+font-size: 8px;
+}
+
+
+
+/* .btn-container {
+margin-top: 15px;
+} */
+
+.btn-container-1 > button, .btn-container-2 > button {
+border: 1px solid #CBEAFE; 
+background-color: aliceblue;
+color: #5BC6FA; 
+border-radius: 2.5px; 
+padding: 8px 12px ; 
+font-size: 8px;
+}
+.btn-container- > button {
+border: 1px solid #CBEAFE; 
+}
+.btn-container-2 > button {
+border: 1px solid #F5FBFF;
+}
+
+.btn-container-2 > a {
+color: white;
+text-decoration: none;
+font-size: 8px;
+}
+
+form > input[type="checkbox"] {
+display: none;
+}
+
+.switch-btn {
+position: absolute;
+height: 14px;
+width: 14px;
+background-color: #5776EC;
+border-radius: 15px;
+margin-top: 1.5px;
+margin-bottom: 1px;
+}
+
+.switch-off {
+left: 2px;
+}
+
+.switch-on{
+left: 18.2px;
+}
+
+.switch {
+height: 17.2px;
+width: 34px;
+border-radius: 15px; 
+/* border: 0;  */
+background-color: #d9d9d9;
+
+/* margin-top: -15px;
+margin-left: 20px; */
+/* z-index: 1; */
+}
+
+.wrapper{
+display: inline-block;
+position: relative;
+}
+
+.row-title {
+color: #555;
+font-weight: 500;
+}
+
+.payment-card, .payment-plan{
+display: none;
+font-size: 20px;
+color: #009CF6; 
+position: absolute; 
+right: 0; 
+top: 0; 
+margin-top: -7px; 
+margin-right: -7px;
+}
+
+.payment-card-width {
+width: 150px !important;
+position: relative;
+}
+
+.selected-payment-card, .selected-payment-plan{
+display: block;
+}
+
+.cards-display{
+position: relative;
+}
+
+.pic-alignment{
+align-items: center;
+}
+
+.mt30{
+margin-bottom: 30px;
+}
+
+.m-fs{
+font-size: 16px;
+margin: 0;
+}
+
+.para-size{
+font-size: 12px; margin-top: 0;
+
+}
+
+.btn-text{
+font-size: 12px !important;
+}
+
+.btn-outter-space{
+margin-top: 15px !important;
+}
+
+.text-align-right{
+text-align: right;
+}
+
+.gray-7{
+color: #777
+}
+
+.cr-card-display{
+border-radius: 3px; 
+margin-right: 10px;
+}
+.card-title{
+margin-bottom: 8px; 
+margin-top: -5px; padding-top: 0; 
+color: #777
+}

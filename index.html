@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Session</title>
+  <!-- <link rel="stylesheet" href="../resources/index.css"> -->
+  	<link rel="stylesheet" href="assets/font-awesome/css/all.css">
+	<link rel="stylesheet" href="assets/index.css">
+
+</head>
+<body>
+  
+    	<div style="display: flex;">
+			<h3 class="design-title" style="display: flex; text-align: center; font-size: 40px; text-transform: uppercase; margin: auto; color: #5776EC;">Subscription</h3>
+		</div>
+ 
+
+  	<div class="card-Section">
+		
+			<!-- First Row -->
+			<div>
+				<div class="row-title" style="margin-bottom: 10px;">
+					<span>Plan</span>
+				</div>
+				
+				<div class="flex-container " >
+					<!-- First card -->
+					<div class="card card1-space card-border-gray plan-cards cards-display" onclick="selectPlan(this)">
+						<i class="fa-solid fa-circle-check white payment-plan " plan="plan"></i>
+						<!-- 1st row in card -->
+						<div class="mt30">
+							<div class="left-float">
+								<h5 class="m-fs">Beginner</h5>
+								<p class="para-size gray-7" >34 days remaining</p>
+							</div>
+							<div class="text-align-right">
+								<h5 class="m-fs gray-7">$10<span style="font-weight: 400;">/month</span></h5>
+							</div>
+						</div>
+						<div class="btn-container-1">
+							<button class="btn-text btn-outter-space">Cancel Subscription</button>
+						</div>
+					</div>
+
+					<!-- Second card -->
+					<div class="card2 card1-space card-border-gray plan-cards" style="position: relative;" onclick="selectPlan(this)">
+						<i class="fa-solid fa-circle-check white payment-plan plan-cards" plan="plan"></i>
+						<!-- 1st row in card -->
+						<div class="mt30">
+							<div class="left-float">
+								<h5 class="m-fs" style=" color: #F5FBFF;">Professional</h5>
+								<p class="para-size" style=" color: #DBDBDB;">356 days</p>
+							</div>
+							<div class="text-align-right">
+								<h5 class="m-fs" style="color: #F5FBFF;">$48<span style="color: #DBDBDB; font-weight: 400;">/month</span></h5>
+							</div>
+						</div>
+						<div class="btn-container-2">
+							<button class="btn-text btn-outter-space">Upgrade</button> <a href="#" style="font-size: 10px;">Learn more about this plan</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!-- Seconed Row -->
+			<div style="width: 96.5%;  margin-top: 50px;">
+				<div class="" style="background-color: transparent; margin-bottom: 1em;">
+					<div class="row-title" class="left-float">
+						<span style=" color: #555;">Enable auto renew</span>
+					</div> 
+					<div style="float: right; clear: right;">
+						<form action="">
+								<input type="checkbox" value="0"  name="autorenew" id="autorenew">
+							<div class="wrapper" onclick="autoRenew()">
+								<div class="switch-btn switch-off" id="switch-btn"></div>
+								<div class="switch"></div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="gray-7" style="clear: left; padding-top: 10px; margin-bottom: 40px;">
+					<p style="font-size: 13px; flex-wrap: wrap-reverse;">This option; if checked, will renew your productive subscription, if the current pllan expires, However, this might prevent you from</p>
+				</div>
+			</div>
+
+
+
+			<!-- Third Section -->
+			<div>
+				<div class="row-title" style="margin-bottom: 10px;">
+					<span>Payment Methods</span>
+				</div>
+				
+				<div class="flex-container" >
+					<!-- First card -->
+					<div class="card card2-space card-border-gray pay-cards payment-card-width" onclick="selectCard(this)">
+						
+						<i class="fa-solid fa-circle-check white payment-card"></i>
+						<!-- 1st row in card -->
+						<div>
+							<h5 class="card-title">Credit Card</h5>
+							
+							<div class="flex-container sets1 pic-alignment" id="sets1">
+								<img src="assets/uploads/master.jpg" alt="" width="30" height="20" class="cr-card-display">
+								
+							</div>
+							<i class="fa-solid fa-do-not-enter" style="float: right;"></i>
+							<!-- <span class="mdi mdi-check-circle"></span> -->
+
+						</div>
+					</div>
+
+					<!-- Second card -->
+					<div class="card card2-space card-border-gray pay-cards payment-card-width" onclick="selectCard(this)">
+						
+						<i class="fa-solid fa-circle-check white payment-card" ></i>
+						<!-- 1st row in card -->
+						<div>
+							<h5 class="card-title">Credit Card</h5>
+							
+							<div class="flex-container sets2 pic-alignment" id="sets2">
+								<img src="assets/uploads/visa.jpg" alt="" width="30" height="20" class="cr-card-display">
+								
+							</div>
+							<i class="fa-solid fa-do-not-enter" style="float: right;"></i>
+							<!-- <span class="mdi mdi-check-circle"></span> -->
+
+						</div>
+					</div>
+
+					<!-- Third card -->
+					<div class="card card2-space card-border-gray pay-cards payment-card-width" style="background-color: #F2F2F2;" onclick="selectCard(this)">
+
+						<i class="fa-solid fa-circle-check white payment-card" ></i>
+						<!-- 1st row in card -->
+						<div style=" display: flex; ">
+							<i class="fas fa-solid fa-circle-check fa-size-24 white color-gray " style="color: #aaa; font-size: 50px; padding-top: 0.2em ;  margin: auto;"></i>
+					</div>
+				</div>
+				
+			</div>
+
+  	</div>
+
+
+
+	<script src="assets/font-awesome/js/all.js"></script>
+
+	<script src="assets/index.js"></script>
+</body>
+</html>
